@@ -1,3 +1,4 @@
+
 let agnioActual = 2021;
 let depreciacionAnual = "";
 let agnosDeUso = "";

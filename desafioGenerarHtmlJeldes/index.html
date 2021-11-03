@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/logo.png">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Mayerling Cup & Cakes</title>
+
+    <meta name="description" content="Pastelería y repostería Mayerling Cup & Cakes, con 6 años de experiencia en la confeccion de tortas, cupckes, pop cakes y más. Atiende cumpleaños, graduaciones, matrimonios, etc ">
+
+    <meta name="keywords" content="pastelería, repostería, tortas, cupcakes, popcakes, gourmet,creaciones, crema, dulce, exquisito">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body class="overflow-x:hidden">
+
+    <!--inicia nav-->
+
+    <nav class="navbar navbar-expand-md navbar-dark" style="">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo de mayerling cup & cakes">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="" href="contactanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <img class="carritoImg me-3" src="img/carrito.png" alt=""></img>
+                    <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                        <table id="lista-carrito" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                        <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                        Compra</a>
+                    </div>
+
+
+                </form>
+            </div>
+
+            <button class="deslizar" id="deslizar">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!--cierra nav-->
+
+
+
+    <!--inicia header-->
+
+    <header id="inicio" class="bg-warning paginaPrincipal">
+        <h1 id="tituloPrincipal" class="text-danger text-center">Mayerling Cup & Cakes</h1>
+
+        <div id="botonProductos">
+
+        </div>
+
+        <div class="wow bounceInUp">
+            <img src="img/cupcake.svg" class="rounded m-auto d-block w-50" alt="Cupcakes de chocolate">
+        </div>
+
+    </header>
+
+    <!--cierra header-->
+
+    <!--Inicia cards productos-->
+    <h5 class="p-3">Tortas (Cakes)</h5>
+    <div id="" class="cards card-group ms-3">
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/torta20.jpg" class="card-img-top" alt="Torta de 20 cms de diametro">
+                <div class="card-body">
+                    <h5 class="card-title">Torta 20 cms</h5>
+                    <p class="card-text">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Tres capas de bizcocho</li>
+                                    <li>Dos capas de relleno a elección</li>
+                                    <li>Decoración en crema</li>
+                                    <li>Aproximadamente para 10 a 15 personas</li>
+                                </ul>
+                                <td class="precio">$13.000</td>
+                            </td>
+                        </tr>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/torta22.jpg" class="card-img-top" alt="Torta de 22 cms de diametro">
+                <div class="card-body">
+                    <h5 class="card-title">Torta 22 cms</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Tres capas de bizcocho</li>
+                                <li>Dos capas de relleno a elección</li>
+                                <li>Decoración en crema</li>
+                                <li>Aproximadamente para 16 a 20 personas</li>
+                            </ul>
+                            <td class="precio">$15.000</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/torta25.jpg" class="card-img-top" alt="Torta de 25 cms de diametro">
+                <div class="card-body">
+                    <h5 class="card-title">Torta 25 cms</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Tres capas de bizcocho</li>
+                                <li>Dos capas de relleno a elección</li>
+                                <li>Decoración en crema</li>
+                                <li>Aproximadamente para 21 a 25 personas</li>
+                            </ul>
+                            <td class="precio">$17.000</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/torta28.jpg" class="card-img-top" alt="Torta de 28 cms de diametro">
+                <div class="card-body">
+                    <h5 class="card-title">Torta 28 cms</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Tres capas de bizcocho</li>
+                                <li>Dos capas de relleno a elección</li>
+                                <li>Decoración en crema</li>
+                                <li>Aproximadamente para 26 a 30 personas</li>
+                            </ul>
+                            <td class="precio">$19.000</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/torta30.jpg" class="card-img-top" alt="Torta de 30 cms de diametro">
+                <div class="card-body">
+                    <h5 class="card-title">Torta 30 cms</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Tres capas de bizcocho</li>
+                                <li>Dos capas de relleno a elección</li>
+                                <li>Decoración en crema</li>
+                                <li>Aproximadamente para 35 a 40 personas</li>
+                            </ul>
+                            <td class="precio">$21.000</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/tortarectangular.jpg" class="card-img-top" alt="Torta rectangular de 25 x 38 centimetros">
+                <div class="card-body">
+                    <h5 class="card-title">Torta Rect. 25x38 cms</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Tres capas de bizcocho</li>
+                                <li>Dos capas de relleno a elección</li>
+                                <li>Decoración en crema</li>
+                                <li>Aproximadamente para 40 personas</li>
+                            </ul>
+                            <td class="precio">$25.000</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/tortaespecial.jpg" class="card-img-top" alt="Torta especial, a medida.">
+                <div class="card-body">
+                    <h5 class="card-title">Tortas Especiales</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Dos o tres pisos y rellenos</li>
+                                <li>Aplicaciones en fondant</li>
+                                <li>Dibujos en crema (Pueden ser personalizados)</li>
+                                <li>Lo que te imagines lo puedes pedir</li>
+                            </ul>
+                            <td class="precio">Valor a acordar</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <h5 class="p-3">Cupcakes</h5>
+    <div class="card-group ms-3">
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/redvelvet.jpg" class="card-img-top" alt="Cupcake rojo con crema de queso">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake Red velvet</h5>
+                    <p class="card-text">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Bizcocho de terciopelo rojo</li>
+                                    <li>Frosting de cream cheese</li>
+                                    <li>Decoración migas de terciopelo</li>
+                                </ul>
+                                <td class="precio">$4.500 (1/2 docena)<br> $8.000 (docena)</td>
+                            </td>
+                        </tr>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/choconuez.jpg" class="card-img-top" alt="cupcake de chocolate con crema y nuez">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake Choco-nuez</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Bizcocho de chocolate</li>
+                                <li>Trozos de nuez</li>
+                                <li>Cobertura de chocolate amargo y nuez</li>
+                            </ul>
+                            <td class="precio">$4.000 (1/2 docena)<br> $6.000 (docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/butter.jpg" class="card-img-top" alt="Cupcake de chocolate con decoracion de crema">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake buttercream</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Bizcocho de vainilla o chocolate</li>
+                                <li>Frosting de buttercream</li>
+                                <li>Decoración perlas comestibles</li>
+                            </ul>
+                            <td class="precio">$4.000 (1/2 docena)<br> $6.000 (docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/explosion.jpg" class="card-img-top" alt="Cupcake de chocolate con crema de chocolate">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake explosión de chocolate</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Bizcocho de chocolate amargo</li>
+                                <li>Frosting de chocolate</li>
+                                <li>Mostacilla de chocolate</li>
+                            </ul>
+                            <td class="precio">$4.000 (1/2 docena)<br> $6.000 (docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/hihat.jpg" class="card-img-top" alt="Cupcake de chocolate o vainilla con crema cubierta de chocolate">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake Hi-Hat</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Bizcocho de chocolate</li>
+                                <li>Frosting de exquisito merengue italiano</li>
+                                <li>Cobertura de chocolate</li>
+                            </ul>
+                            <td class="precio">$4.000 (1/2 docena)<br> $6.000 (docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/vainillacream.jpg" class="card-img-top" alt="cupcake de vainilla con crema">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake Cream</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Bizcocho de vainilla o chocolate</li>
+                                <li>Frosting de crema chantilly</li>
+                                <li>Decoración perlas comestibles</li>
+                            </ul>
+                            <td class="precio">$4.000 (1/2 docena)<br> $6.000 (docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/minicupcake.jpg" class="card-img-top" alt="mini cupcake de chocolate y crema">
+                <div class="card-body">
+                    <h5 class="card-title">Mini Cupcake</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Bizcocho de chocolate</li>
+                                <li>Frosting de crema</li>
+                                <li>Decoración de perlas comestibles</li>
+                            </ul>
+                            <td class="precio">$16.000 (50 unidades)<br>Cotizar por más unidades</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <h5 class="p-3">Popcakes</h5>
+    <div class="card-group ms-3">
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/popcakes.jpg" class="card-img-top" alt="popcake con cubierta de chocolates y chips de colores">
+                <div class="card-body">
+                    <h5 class="card-title">Popcake Chocolate</h5>
+                    <p class="card-text">
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Relleno de bizcocho</li>
+                                    <li>Cobertura de chocolate a elección</li>
+                                    <li>Decoración Chips de colores</li>
+                                </ul>
+                                <td class="precio">$3.500 (Docena)</td>
+                            </td>
+                        </tr>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/popcakesrosas.jpg" class="card-img-top" alt="Popcake con crema en forma de flor">
+                <div class="card-body">
+                    <h5 class="card-title">Popcake Crema</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Relleno de bizcocho</li>
+                                <li>Cobertura con crema a elección</li>
+                                <li>Decoración en crema</li>
+                            </ul>
+                            <td class="precio">$4.000 (Docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/popespecial.jpg" class="card-img-top" alt="Popcake con crema y fondant">
+                <div class="card-body">
+                    <h5 class="card-title">Popcake crema y fondant</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Relleno de bizcocho</li>
+                                <li>Cobertura con crema a elección</li>
+                                <li>Decoración de fondant</li>
+                            </ul>
+                            <td class="precio">$5.000 (Docena)</td>
+                        </td>
+                    </p>
+                    <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/popcakesespecial.jpg" class="card-img-top" alt="Popcake en forma de manzana pintado con brillo comestible">
+                <div class="card-body">
+                    <h5 class="card-title">Popcake Especial</h5>
+                    <p class="card-text">
+                        <td>
+                            <ul>
+                                <li>Relleno de bizcocho</li>
+                                <li>Cobertura de chocolate a elección</li>
+                                <li>Decoración brillo comestible</li>
+                            </ul>
+                            <td class="precio">$5.000 (Docena)</td>
+                        </td>
+                    </p>
+                    <div class="d-flex m-2">
+                        <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!--Cierra Cards productos-->
+
+    <!--comienza footer-->
+    <footer class="overflow-x:hidden me-1">
+        <div class="wsp">
+            <a href="https://wa.me/+56976867997" target="_blank"><img src="img/wsp1.png" alt="logo de whatsApp" id="footer__whatsapp--fixed"></a>
+        </div>
+
+        <div class="conteinerfooterall">
+
+            <div class="conteinerbody row">
+                <div class="conteinerbody__colum1--size col-lg-3">
+                    <h4 class="footer__titulo--size">Mas informacion de Mayerling Cup & Cakes</h4>
+
+                    <p>Es una empresa familiar en donde todos aportan con sus talentos culinarios, nos dedicamos a la confeccion de tortas, cupcakes y masas dulces, todo lo que te imagines lo podemos volver realidad, tu paladar no se arrepentira. La gran
+                        impulsadora de esto es Mayerling una pastelera autodidacta y con mucho talento ubicados en la cuidad de Quillota</p>
+                </div class="row">
+
+                <div class="conteinerbody__colum2--size col-lg-3">
+                    <h4 class="footer__titulo--size">Redes sociales</h4>
+
+                    <div class="conteinerbody__logo--size">
+                        <img src="img/face.png" alt="Logo de facebook">
+                        <a href="https://www.facebook.com/mayerlingcupcakes" target="_blank">Siguenos en Facebook</a>
+                    </div>
+
+                    <div class="conteinerbody__logo--size">
+                        <img src="img/insta1.png" alt="logo de instagram">
+                        <a href="https://www.instagram.com/mayerlingcupcakes" target="_blank">Siguenos en Instagram</a>
+                    </div>
+
+                    <div class="conteinerbody__logo--size">
+                        <img src="img/wsp1.png" alt="Logo de whatsapp">
+                        <a href="https://wa.me/+56976867997" target="_blank">Agreganos a WhatsApp</a>
+                    </div>
+
+                </div>
+
+                <div class="conteinerbody__colum3--size row col-lg-3">
+
+                    <h4 class="footer__titulo--size">Informacion Contactos</h4>
+
+                    <div class="row2">
+                        <img src="img/ubi.png" alt="Logo de google maps">
+                        <label>Las Araucarias, 4ta Etapa, Pje Colliguay 1476, Quillota, V region</label>
+                    </div>
+                    <div class="row2">
+                        <img src="img/cel.png" alt="logo de celular">
+                        <label>+56 9 76867997</label>
+                    </div>
+                    <div class="row2">
+                        <img src="img/email.png" alt="Logo de correo electronico">
+                        <label>Mayerlingcupcakes@gmail.com</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteinerFooter">
+            <div class="copyrigth">
+                &#169 2021 Todos los Derechos Reservados
+            </div>
+            <div class="autor"> Creado por M@nu JeldeS 2021</div>
+
+        </div>
+
+    </footer>
+
+    <!--termina footer-->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+</body>
+
+</html>

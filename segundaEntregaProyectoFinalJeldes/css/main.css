@@ -106,6 +106,38 @@ nav div a:hover {
   background: #ffea32;
 }
 
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  color: #ffea32;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background: #b24475;
+  padding: 20px;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: #ffea32;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.button {
+  background-color: #ffea32;
+  color: white;
+}
+
 body.dark .card-body {
   background: #000;
   color: white;

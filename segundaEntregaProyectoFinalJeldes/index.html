@@ -46,28 +46,45 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <img class="carritoImg me-3" src="img/carrito.png" alt=""></img>
-                    <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
-                        <table id="lista-carrito" class="table">
-                            <thead>
-                                <tr>
-                                    <th>Imagen</th>
-                                    <th>Nombre</th>
-                                    <th>Precio</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
+                    <div class="">
+                        <div class="">
+                            <div class="four columns u-pull-rigth">
+                                <ul>
+                                    <li class="submenu">
+                                        <img class="carritoImg me-3" src="img/carrito.png" alt=""></img>
+                                        <div id="carrito">
+                                            <p class="vacio">carrito vacío</p>
+                                            <table class="table table-hover u-full-width">
 
-                        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
-                        <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
-                        Compra</a>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Producto</th>
+                                                        <th>Nombre</th>
+                                                        <th>Valor</th>
+                                                    </tr>
+                                                </thead>
+
+
+                                                <tbody>
+                                                    <tr class="table">
+                                                        <td>
+                                                            <img src="img/hihat.jpg" width="100">
+                                                        </td>
+                                                        <td>Cupcakes Hit Hat</td>
+                                                        <td>$6000</td>
+                                                        <td>
+                                                            <a href="#" class="borrarProducto"></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="#" class="button u-full-width">Vaciar Carrito</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-
 
                 </form>
             </div>
@@ -103,7 +120,7 @@
 
     <!--Inicia cards productos-->
     <h5 class="p-3">Productos</h5>
-    <div id="contenedor" class="cards card-group ms-3 p-3">
+    <div id="contenedor" class="card-group ms-3">
 
     </div>
     <!--Cierra Cards productos-->

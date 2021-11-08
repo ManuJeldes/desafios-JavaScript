@@ -19,111 +19,111 @@ const productos = [{
         descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 21 a 25 personas <br>",
         precio: 17000
     },
-    // {
-    //     id: 4,
-    //     foto: "./img/torta28.jpg",
-    //     nombre: "Torta 28 cms",
-    //     descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 26 a 30 personas <br>",
-    //     precio: 19000
-    // },
-    // {
-    //     id: 5,
-    //     foto: "./img/torta30.jpg",
-    //     nombre: "Torta 30 cms",
-    //     descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 35 a 40 personas",
-    //     precio: 21000
-    // },
-    // {
-    //     id: 6,
-    //     foto: "./img/tortarectangular.jpg",
-    //     nombre: "Torta Rect. 25x38 cms",
-    //     descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 40 personas",
-    //     precio: 25000
-    // },
-    // {
-    //     id: 7,
-    //     foto: "./img/tortaespecial.jpg",
-    //     nombre: "Torta especial",
-    //     descripcion: "Dos o tres pisos y rellenos <br> Aplicaciones en fondant <br> Dibujos en crema (Pueden ser personalizados) <br> Lo que te imagines lo puedes pedir",
-    //     precio: 35000
-    // },
-    // {
-    //     id: 8,
-    //     foto: "./img/redvelvet.jpg",
-    //     nombre: "Cupcake Red velvet",
-    //     descripcion: "Bizcocho de terciopelo rojo <br> Frosting de cream cheese <br> Decoración migas de terciopelo",
-    //     precio: 8000
-    // },
-    // {
-    //     id: 9,
-    //     foto: "./img/choconuez.jpg",
-    //     nombre: "Cupcake Choco-nuez",
-    //     descripcion: "Bizcocho de chocolate <br> Trozos de nuez <br> Cobertura de chocolate amargo y nuez",
-    //     precio: 6000
-    // },
-    // {
-    //     id: 10,
-    //     foto: "./img/butter.jpg",
-    //     nombre: "Cupcake buttercream",
-    //     descripcion: "Bizcocho de vainilla o chocolate <br> Frosting de buttercream <br> Decoración perlas comestibles",
-    //     precio: 6000
-    // },
-    // {
-    //     id: 11,
-    //     foto: "./img/explosion.jpg",
-    //     nombre: "Cupcake explosión de chocolate",
-    //     descripcion: "Bizcocho de chocolate amargo <br> Frosting de chocolate <br> Mostacilla de chocolate",
-    //     precio: 6000
-    // },
-    // {
-    //     id: 12,
-    //     foto: "./img/hihat.jpg",
-    //     nombre: "Cupcake Hi-Hat",
-    //     descripcion: "Bizcocho de chocolate <br> Frosting de exquisito merengue italiano <br> Cobertura de chocolate",
-    //     precio: 6000
-    // },
-    // {
-    //     id: 13,
-    //     foto: "./img/vainillacream.jpg",
-    //     nombre: "Cupcake Cream",
-    //     descripcion: "Bizcocho de vainilla o chocolate <br> Frosting de crema chantilly <br> Decoración perlas comestibles",
-    //     precio: 6000
-    // },
-    // {
-    //     id: 14,
-    //     foto: "./img/minicupcake.jpg",
-    //     nombre: "Mini Cupcake",
-    //     descripcion: "Bizcocho de chocolate <br> Frosting de crema <br> Cantidad 50 mini cupcakes",
-    //     precio: 16000
-    // },
-    // {
-    //     id: 15,
-    //     foto: "./img/popcakes.jpg",
-    //     nombre: "Popcake Chocolate",
-    //     descripcion: "Relleno de bizcocho <br> Cobertura de chocolate a elección <br> Decoración Chips de colores",
-    //     precio: 3500
-    // },
-    // {
-    //     id: 16,
-    //     foto: "./img/popcakesrosas.jpg",
-    //     nombre: "Popcake Crema",
-    //     descripcion: "Relleno de bizcocho <br> Cobertura con crema a elección <br> Decoración en crema",
-    //     precio: 4000
-    // },
-    // {
-    //     id: 17,
-    //     foto: "./img/popespecial.jpg",
-    //     nombre: "Popcake crema y fondant",
-    //     descripcion: "Relleno de bizcocho <br> Cobertura con crema a elección <br> Decoración de fondant",
-    //     precio: 5000
-    // },
-    // {
-    //     id: 18,
-    //     foto: "./img/popcakesespecial.jpg",
-    //     nombre: "Popcake Especial",
-    //     descripcion: "Relleno de bizcocho <br> Cobertura de chocolate a elección <br> Decoración brillo comestible",
-    //     precio: 6000
-    // }
+    {
+        id: 4,
+        foto: "./img/torta28.jpg",
+        nombre: "Torta 28 cms",
+        descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 26 a 30 personas <br>",
+        precio: 19000
+    },
+    {
+        id: 5,
+        foto: "./img/torta30.jpg",
+        nombre: "Torta 30 cms",
+        descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 35 a 40 personas",
+        precio: 21000
+    },
+    {
+        id: 6,
+        foto: "./img/tortarectangular.jpg",
+        nombre: "Torta Rect. 25x38 cms",
+        descripcion: "Tres capas de bizcocho <br> Dos capas de relleno a elección <br> Decoración en crema <br> Aproximadamente para 40 personas",
+        precio: 25000
+    },
+    {
+        id: 7,
+        foto: "./img/tortaespecial.jpg",
+        nombre: "Torta especial",
+        descripcion: "Dos o tres pisos y rellenos <br> Aplicaciones en fondant <br> Dibujos en crema (Pueden ser personalizados) <br> Lo que te imagines lo puedes pedir",
+        precio: 35000
+    },
+    {
+        id: 8,
+        foto: "./img/redvelvet.jpg",
+        nombre: "Cupcake Red velvet",
+        descripcion: "Bizcocho de exquisito terciopelo rojo <br> Frosting de cream cheese <br> Decoración con suaves migas de terciopelo",
+        precio: 8000
+    },
+    {
+        id: 9,
+        foto: "./img/choconuez.jpg",
+        nombre: "Cupcake Choco-nuez",
+        descripcion: "Bizcocho de chocolate <br> Trozos de nuez <br> Cobertura de chocolate amargo y nuez",
+        precio: 6000
+    },
+    {
+        id: 10,
+        foto: "./img/butter.jpg",
+        nombre: "Cupcake buttercream",
+        descripcion: "Bizcocho de vainilla o chocolate <br> Frosting de buttercream <br> Decoración hermosas perlas comestibles",
+        precio: 6000
+    },
+    {
+        id: 11,
+        foto: "./img/explosion.jpg",
+        nombre: "Cupcake explosión de chocolate",
+        descripcion: "Bizcocho de chocolate amargo <br> Frosting de chocolate <br> Mostacilla de chocolate",
+        precio: 6000
+    },
+    {
+        id: 12,
+        foto: "./img/hihat.jpg",
+        nombre: "Cupcake Hi-Hat",
+        descripcion: "Bizcocho de chocolate <br> Frosting de exquisito merengue italiano <br> Cobertura de chocolate",
+        precio: 6000
+    },
+    {
+        id: 13,
+        foto: "./img/vainillacream.jpg",
+        nombre: "Cupcake Cream",
+        descripcion: "Bizcocho de vainilla o chocolate <br> Frosting de crema chantilly <br> Decoración perlas comestibles",
+        precio: 6000
+    },
+    {
+        id: 14,
+        foto: "./img/minicupcake.jpg",
+        nombre: "Mini Cupcake",
+        descripcion: "Bizcocho de chocolate <br> Frosting de crema <br> Cantidad 50 mini cupcakes",
+        precio: 16000
+    },
+    {
+        id: 15,
+        foto: "./img/popcakes.jpg",
+        nombre: "Popcake Chocolate",
+        descripcion: "Relleno de bizcocho <br> Cobertura de chocolate a elección <br> Decoración Chips de colores",
+        precio: 3500
+    },
+    {
+        id: 16,
+        foto: "./img/popcakesrosas.jpg",
+        nombre: "Popcake Crema",
+        descripcion: "Relleno de bizcocho <br> Cobertura con crema a elección <br> Decoración en crema",
+        precio: 4000
+    },
+    {
+        id: 17,
+        foto: "./img/popespecial.jpg",
+        nombre: "Popcake crema y fondant",
+        descripcion: "Relleno de bizcocho <br> Cobertura con crema a elección <br> Decoración de fondant",
+        precio: 5000
+    },
+    {
+        id: 18,
+        foto: "./img/popcakesespecial.jpg",
+        nombre: "Popcake Especial",
+        descripcion: "Relleno de bizcocho <br> Cobertura de chocolate a elección <br> Decoración brillo comestible",
+        precio: 6000
+    }
 
 ];
 
@@ -135,15 +135,17 @@ const contenedor = document.getElementById("contenedor");
 function agregarCards(productos, contenedor) {
     productos.forEach(producto => {
         contenedor.innerHTML += `
+        <article class="col-lg-3 col-md-6 mb-3">
         <div class="card" style="width: 18rem;">
-                <img src="${producto.foto}" class="card-img-top" alt="Torta de 20 cms de diametro">
-                <div class="card-body">
-                    <h5 class="card-title">${producto.nombre}</h5>
-                    <p class="card-text">${producto.descripcion}</p>
-                    <p class="precio">${producto.precio}</p>
-                    <a href="" class="btn btn-warning">Agregar al carrito</a>
-                </div>
-            </div>
+          <img src="${producto.foto}" class="card-img-top" alt="Torta de 20 cms de diametro">
+          <div class="card-body">
+            <h5 class="card-title">${producto.nombre}</h5>
+            <p class="card-text">${producto.descripcion}</p>
+            <p class="card-text">$ ${producto.precio}</p>
+            <a href="contactanos.html" class="btn btn-warning">Contáctanos</a>
+          </div>
+        </div>
+      </article>
                 `;
     });
 }

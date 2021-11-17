@@ -14,7 +14,7 @@ body {
 }
 
 body.dark {
-  background: #000;
+  background: #151E21;
   color: white;
 }
 
@@ -91,6 +91,12 @@ body.dark nav {
   background: rgba(56, 52, 52, 0.067);
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
 nav img {
   width: 50px;
 }
@@ -153,6 +159,18 @@ body.dark .submenu:hover #carrito {
 body.dark .card-body {
   background: #000;
   color: white;
+}
+
+header {
+  padding-top: 5rem;
+}
+
+h2 {
+  padding-top: 60rem;
+}
+
+.contenedor {
+  padding-top: 5rem;
 }
 
 footer {

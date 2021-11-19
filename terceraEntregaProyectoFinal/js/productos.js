@@ -224,12 +224,3 @@ function calcularTotal() {
     }
     return suma;
 }
-
-// $(`#elimina${productoAAgregar.id}`).click(function() {
-//     console.log("ENtre");
-//     let posEliminar = carrito.findIndex(p => p.id == productoAAgregar.id);
-//     carrito.splice(posEliminar, 1);
-//     $(`#fila${productoAAgregar.id}`).remove();
-//     console.log(carrito);
-//     $("#gastoTotal").html(`Total: $${calcularMontoTotal()}`);
-// });

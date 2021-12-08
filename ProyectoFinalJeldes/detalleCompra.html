@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/logo.png">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Mayerling Cup & Cakes</title>
+
+    <meta name="description" content="Pastelería y repostería Mayerling Cup & Cakes, con 6 años de experiencia en la confeccion de tortas, cupckes, pop cakes y más. Atiende cumpleaños, graduaciones, matrimonios, etc ">
+
+    <meta name="keywords" content="pastelería, repostería, tortas, cupcakes, popcakes, gourmet,creaciones, crema, dulce, exquisito">
+
+</head>
+
+<body>
+    <!--inicia nav-->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo de mayerling cup & cakes">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="" href="index.html">Home</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <button class="deslizar" id="deslizar">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+
+        </div>
+    </nav>
+    <!--cierra nav-->
+
+    <!--inicia header-->
+
+    <header id="inicio" class="bg-warning paginaPrincipal">
+        <h1 id="tituloPrincipal" class="text-danger text-center">Realizar Compra</h1>
+
+
+
+
+
+        <!--cierra header-->
+
+        <!--inicia forms-->
+
+        <div class="">
+            <div class="row mt-3">
+                <div class="col">
+
+                    <form id="procesar-pago" action="#" method="POST">
+                        <div class="form-group row ms-5 me-5">
+                            <label for="cliente" class="col-12 col-md-2 col-form-label h2 ms-5">Cliente :</label>
+                            <div class="col-12 col-md-10">
+                                <input type="text" class="form-control" id="cliente" placeholder="Ingresa nombre cliente" name="destinatario">
+                            </div>
+                        </div>
+                        <div class="form-group row ms-5 me-5">
+                            <label for="email" class="col-12 col-md-2 col-form-label h2 ms-5">Correo :</label>
+                            <div class="col-12 col-md-10">
+                                <input type="text" class="form-control" id="correo" placeholder="Ingresa tu correo" name="cc_to">
+                            </div>
+                        </div>
+
+                        <div id="carrito" class="form-group table-responsive text-center">
+                            <table class="table" id="lista-compra">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Imagen</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Sub Total</th>
+                                        <th scope="col">Eliminar</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">SUB TOTAL :</th>
+                                    <th scope="col">
+                                        <p id="subtotal"></p>
+                                    </th>
+
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">IVA :</th>
+                                    <th scope="col">
+                                        <p id="iva"></p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">TOTAL :</th>
+                                    <th scope="col">
+                                        <input type="text" id="total" name="monto" readonly class="font-weight-bold border-0"></input>
+                                    </th>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="row justify-content-center" id="loaders">
+                            <img id="cargando" src="img/cargando.gif" style="width:10%">
+                        </div>
+
+                        <div class="row justify-content-between">
+                            <div class="col-md-4 mb-2 ms-5">
+                                <a href="index.html" class="btn btn-info btn-block">Seguir comprando</a>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <button href="#" class="btn btn-danger btn-block" id="procesar-compra">Realizar compra</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--Termina Tabla-->
+    </header>
+    <!--comienza footer-->
+    <footer class="overflow-x:hidden me-1">
+        <div class="wsp">
+            <a href="https://wa.me/+56976867997" target="_blank"><img src="img/wsp1.png" alt="logo de whatsApp" id="footer__whatsapp--fixed"></a>
+        </div>
+
+        <div class="conteinerfooterall">
+
+            <div class="conteinerbody row">
+                <div class="conteinerbody__colum1--size col-lg-3">
+                    <h4 class="footer__titulo--size">Mas informacion de Mayerling Cup & Cakes</h4>
+
+                    <p>Es una empresa familiar en donde todos aportan con sus talentos culinarios, nos dedicamos a la confeccion de tortas, cupcakes y masas dulces, todo lo que te imagines lo podemos volver realidad, tu paladar no se arrepentira. La gran
+                        impulsadora de esto es Mayerling una pastelera autodidacta y con mucho talento ubicados en la cuidad de Quillota</p>
+                </div class="row">
+
+                <div class="conteinerbody__colum2--size col-lg-3">
+                    <h4 class="footer__titulo--size">Redes sociales</h4>
+
+                    <div class="conteinerbody__logo--size">
+                        <img src="img/face.png" alt="Logo de facebook">
+                        <a href="https://www.facebook.com/mayerlingcupcakes" target="_blank">Siguenos en Facebook</a>
+                    </div>
+
+                    <div class="conteinerbody__logo--size">
+                        <img src="img/insta1.png" alt="logo de instagram">
+                        <a href="https://www.instagram.com/mayerlingcupcakes" target="_blank">Siguenos en Instagram</a>
+                    </div>
+
+                    <div class="conteinerbody__logo--size">
+                        <img src="img/wsp1.png" alt="Logo de whatsapp">
+                        <a href="https://wa.me/+56976867997" target="_blank">Agreganos a WhatsApp</a>
+                    </div>
+
+                </div>
+
+                <div class="conteinerbody__colum3--size row col-lg-3">
+
+                    <h4 class="footer__titulo--size">Informacion Contactos</h4>
+
+                    <div class="row2">
+                        <img src="img/ubi.png" alt="Logo de google maps">
+                        <label>Las Araucarias, 4ta Etapa, Pje Colliguay 1476, Quillota, V region</label>
+                    </div>
+                    <div class="row2">
+                        <img src="img/cel.png" alt="logo de celular">
+                        <label>+56 9 76867997</label>
+                    </div>
+                    <div class="row2">
+                        <img src="img/email.png" alt="Logo de correo electronico">
+                        <label>Mayerlingcupcakes@gmail.com</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteinerFooter">
+            <div class="copyrigth">
+                &#169 2021 Todos los Derechos Reservados
+            </div>
+            <div class="autor"> Creado por M@nu JeldeS 2021</div>
+
+        </div>
+
+    </footer>
+
+    <!--termina footer-->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+
+    <!-- <script src="js/productos.js"></script> -->
+    <script src="js/carrito.js"></script>
+    <script src="js/detalleCompra.js"></script>
+    <script src="js/darkMode.js"></script>
+
+</body>
+
+</html>
